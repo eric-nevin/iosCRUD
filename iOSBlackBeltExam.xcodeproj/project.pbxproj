@@ -9,12 +9,22 @@
 /* Begin PBXBuildFile section */
 		D72BFD461CEFA8C900C25300 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BFD451CEFA8C900C25300 /* AppDelegate.swift */; };
 		D72BFD481CEFA8C900C25300 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BFD471CEFA8C900C25300 /* ViewController.swift */; };
-		D72BFD4B1CEFA8C900C25300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72BFD491CEFA8C900C25300 /* Main.storyboard */; };
 		D72BFD4E1CEFA8C900C25300 /* iOSBlackBeltExam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D72BFD4C1CEFA8C900C25300 /* iOSBlackBeltExam.xcdatamodeld */; };
 		D72BFD501CEFA8C900C25300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D72BFD4F1CEFA8C900C25300 /* Assets.xcassets */; };
 		D72BFD531CEFA8C900C25300 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72BFD511CEFA8C900C25300 /* LaunchScreen.storyboard */; };
 		D72BFD5E1CEFA8C900C25300 /* iOSBlackBeltExamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BFD5D1CEFA8C900C25300 /* iOSBlackBeltExamTests.swift */; };
 		D72BFD691CEFA8C900C25300 /* iOSBlackBeltExamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BFD681CEFA8C900C25300 /* iOSBlackBeltExamUITests.swift */; };
+		D72BFD771CEFA8D600C25300 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D72BFD761CEFA8D600C25300 /* CoreData.framework */; };
+		D72BFD791CEFA8ED00C25300 /* CancelButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BFD781CEFA8ED00C25300 /* CancelButtonDelegate.swift */; };
+		D72BFD7B1CEFA8FE00C25300 /* DoneButtonDeleagate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BFD7A1CEFA8FE00C25300 /* DoneButtonDeleagate.swift */; };
+		D72BFD7D1CEFA90500C25300 /* BucketListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BFD7C1CEFA90500C25300 /* BucketListViewController.swift */; };
+		D72BFD7F1CEFA90B00C25300 /* BeastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BFD7E1CEFA90B00C25300 /* BeastViewController.swift */; };
+		D72BFD811CEFA91200C25300 /* MissionDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BFD801CEFA91200C25300 /* MissionDetailsViewController.swift */; };
+		D72BFD861CEFA95200C25300 /* Mission+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BFD821CEFA95200C25300 /* Mission+CoreDataProperties.swift */; };
+		D72BFD871CEFA95200C25300 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BFD831CEFA95200C25300 /* Mission.swift */; };
+		D72BFD881CEFA95200C25300 /* Beast+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BFD841CEFA95200C25300 /* Beast+CoreDataProperties.swift */; };
+		D72BFD891CEFA95200C25300 /* Beast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BFD851CEFA95200C25300 /* Beast.swift */; };
+		D72BFD8B1CEFA97B00C25300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72BFD8A1CEFA97B00C25300 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +48,6 @@
 		D72BFD421CEFA8C900C25300 /* iOSBlackBeltExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSBlackBeltExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72BFD451CEFA8C900C25300 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D72BFD471CEFA8C900C25300 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D72BFD4A1CEFA8C900C25300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D72BFD4D1CEFA8C900C25300 /* iOSBlackBeltExam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSBlackBeltExam.xcdatamodel; sourceTree = "<group>"; };
 		D72BFD4F1CEFA8C900C25300 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D72BFD521CEFA8C900C25300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +58,17 @@
 		D72BFD641CEFA8C900C25300 /* iOSBlackBeltExamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSBlackBeltExamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72BFD681CEFA8C900C25300 /* iOSBlackBeltExamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSBlackBeltExamUITests.swift; sourceTree = "<group>"; };
 		D72BFD6A1CEFA8C900C25300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D72BFD761CEFA8D600C25300 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D72BFD781CEFA8ED00C25300 /* CancelButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButtonDelegate.swift; sourceTree = "<group>"; };
+		D72BFD7A1CEFA8FE00C25300 /* DoneButtonDeleagate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoneButtonDeleagate.swift; sourceTree = "<group>"; };
+		D72BFD7C1CEFA90500C25300 /* BucketListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BucketListViewController.swift; sourceTree = "<group>"; };
+		D72BFD7E1CEFA90B00C25300 /* BeastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeastViewController.swift; sourceTree = "<group>"; };
+		D72BFD801CEFA91200C25300 /* MissionDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionDetailsViewController.swift; sourceTree = "<group>"; };
+		D72BFD821CEFA95200C25300 /* Mission+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Mission+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D72BFD831CEFA95200C25300 /* Mission.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		D72BFD841CEFA95200C25300 /* Beast+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Beast+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D72BFD851CEFA95200C25300 /* Beast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beast.swift; sourceTree = "<group>"; };
+		D72BFD8A1CEFA97B00C25300 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72BFD771CEFA8D600C25300 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +100,15 @@
 		D72BFD391CEFA8C900C25300 = {
 			isa = PBXGroup;
 			children = (
+				D72BFD821CEFA95200C25300 /* Mission+CoreDataProperties.swift */,
+				D72BFD831CEFA95200C25300 /* Mission.swift */,
+				D72BFD841CEFA95200C25300 /* Beast+CoreDataProperties.swift */,
+				D72BFD851CEFA95200C25300 /* Beast.swift */,
+				D72BFD761CEFA8D600C25300 /* CoreData.framework */,
 				D72BFD441CEFA8C900C25300 /* iOSBlackBeltExam */,
-				D72BFD5C1CEFA8C900C25300 /* iOSBlackBeltExamTests */,
 				D72BFD671CEFA8C900C25300 /* iOSBlackBeltExamUITests */,
 				D72BFD431CEFA8C900C25300 /* Products */,
+				D72BFD5C1CEFA8C900C25300 /* iOSBlackBeltExamTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +125,14 @@
 		D72BFD441CEFA8C900C25300 /* iOSBlackBeltExam */ = {
 			isa = PBXGroup;
 			children = (
+				D72BFD781CEFA8ED00C25300 /* CancelButtonDelegate.swift */,
+				D72BFD7A1CEFA8FE00C25300 /* DoneButtonDeleagate.swift */,
+				D72BFD7C1CEFA90500C25300 /* BucketListViewController.swift */,
+				D72BFD7E1CEFA90B00C25300 /* BeastViewController.swift */,
+				D72BFD801CEFA91200C25300 /* MissionDetailsViewController.swift */,
 				D72BFD451CEFA8C900C25300 /* AppDelegate.swift */,
 				D72BFD471CEFA8C900C25300 /* ViewController.swift */,
-				D72BFD491CEFA8C900C25300 /* Main.storyboard */,
+				D72BFD8A1CEFA97B00C25300 /* Main.storyboard */,
 				D72BFD4F1CEFA8C900C25300 /* Assets.xcassets */,
 				D72BFD511CEFA8C900C25300 /* LaunchScreen.storyboard */,
 				D72BFD541CEFA8C900C25300 /* Info.plist */,
@@ -235,9 +266,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72BFD8B1CEFA97B00C25300 /* Main.storyboard in Resources */,
 				D72BFD531CEFA8C900C25300 /* LaunchScreen.storyboard in Resources */,
 				D72BFD501CEFA8C900C25300 /* Assets.xcassets in Resources */,
-				D72BFD4B1CEFA8C900C25300 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +294,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				D72BFD4E1CEFA8C900C25300 /* iOSBlackBeltExam.xcdatamodeld in Sources */,
+				D72BFD7F1CEFA90B00C25300 /* BeastViewController.swift in Sources */,
 				D72BFD481CEFA8C900C25300 /* ViewController.swift in Sources */,
+				D72BFD881CEFA95200C25300 /* Beast+CoreDataProperties.swift in Sources */,
+				D72BFD791CEFA8ED00C25300 /* CancelButtonDelegate.swift in Sources */,
+				D72BFD891CEFA95200C25300 /* Beast.swift in Sources */,
+				D72BFD811CEFA91200C25300 /* MissionDetailsViewController.swift in Sources */,
+				D72BFD861CEFA95200C25300 /* Mission+CoreDataProperties.swift in Sources */,
 				D72BFD461CEFA8C900C25300 /* AppDelegate.swift in Sources */,
+				D72BFD7D1CEFA90500C25300 /* BucketListViewController.swift in Sources */,
+				D72BFD871CEFA95200C25300 /* Mission.swift in Sources */,
+				D72BFD7B1CEFA8FE00C25300 /* DoneButtonDeleagate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +340,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D72BFD491CEFA8C900C25300 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D72BFD4A1CEFA8C900C25300 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D72BFD511CEFA8C900C25300 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
